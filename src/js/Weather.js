@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import WeatherInfo from "../js/WeatherInfo";
 import WeatherForecast from "../js/WeatherForecast";
+import logo from "../img/devbykristian_navbar_logo.jpg";
 import axios from "axios";
 import "../css/Weather.css";
 
@@ -41,6 +42,13 @@ export default function Weather(props) {
   if (weatherData.ready) {
     return (
       <div className="Weather">
+        <a
+          href="https://www.shecodes.io/graduates/162100-kristian-suarez"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={logo} className="logo" alt="Dev by Kristian logo" />
+        </a>
         <form onSubmit={handleSubmit}>
           <div className="row">
             <div className="col-9">
