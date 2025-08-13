@@ -74,15 +74,15 @@ export default function Weather(props) {
           city={weatherData.city}
         />
         <footer>
-          This project was coded by Kristian Suarez and is
+          This project was coded by Kristian Suarez and is{" "}
           <a
             href="https://github.com/ksuarez032025/react-weather-app"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Open-sourced on Github
+            Open-sourced on Github{" "}
           </a>
-          and
+          and{" "}
           <a
             href="https://weather-app-shecodes-react-project.netlify.app/"
             target="_blank"
